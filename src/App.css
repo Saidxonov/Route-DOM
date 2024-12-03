@@ -26,10 +26,6 @@ form input {
   color: #fff;
 }
 
-.menu ul li a:hover {
-  text-decoration: underline;
-}
-
 .contact button {
   padding: 10px 20px;
   background-color: #000;
@@ -37,8 +33,4 @@ form input {
   color: #fff;
   border-radius: 20px;
   cursor: pointer;
-}
-
-.active {
-  text-decoration: underline;
 }
