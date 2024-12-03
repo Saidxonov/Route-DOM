@@ -1,0 +1,44 @@
+form input {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  column-gap: 14px;
+  list-style: none;
+}
+
+.header {
+  background-color: #000;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu ul li a:hover {
+  text-decoration: underline;
+}
+
+.contact button {
+  padding: 10px 20px;
+  background-color: #000;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.active {
+  text-decoration: underline;
+}

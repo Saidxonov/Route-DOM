@@ -1,0 +1,103 @@
+.form {
+  margin-top: 50px;
+}
+
+.top-content {
+  text-align: center;
+}
+
+.top-content h2 {
+  color: gray;
+}
+
+.save-btn {
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 5px;
+  transition: 0.3s;
+  font-family: "Poppins";
+}
+
+.save-btn:hover {
+  background-color: #000;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.userName {
+  margin-bottom: 50px;
+}
+
+#userName,
+#userEmail {
+  width: 100%;
+  height: 50px;
+  border-radius: 20px;
+  padding-left: 10px;
+  font-size: larger;
+  margin-top: 5px;
+  border: 3px solid blue;
+}
+
+#userName:focus,
+#userEmail:focus {
+  outline: none;
+  border: 3px solid skyblue;
+}
+
+#userEmail {
+  margin-bottom: 20px;
+}
+
+#userName::placeholder {
+  font-family: "Poppins";
+  font-size: large;
+}
+
+span {
+  color: red;
+}
+
+.save-btn {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+  height: 200px;
+}
+
+.card h2 {
+  font-size: 25px;
+}
+
+.card:hover {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+  transition: 0.3s;
+}
